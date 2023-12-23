@@ -1,0 +1,49 @@
+.list-item,
+.total-price {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 1rem;
+  max-width: 600px;
+  padding-inline: 2rem;
+  margin-inline: auto;
+}
+
+.total-price h2 {
+  margin-right: 1.5rem;
+}
+
+.list-item h3 {
+  margin-right: 1rem;
+}
+
+.list-item p {
+  font-style: italic;
+  margin-right: 2rem;
+  flex-grow: 1;
+}
+
+.list-controller {
+  margin-bottom: 2rem;
+}
+
+.form-controller {
+  flex-shrink: 0;
+}
+
+.btn {
+  font: inherit;
+  border: 1px solid #00695c;
+  color: #00695c;
+  background: white;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 0.25rem;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #00695c;
+  color: white;
+}
